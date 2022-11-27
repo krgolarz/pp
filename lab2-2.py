@@ -1,0 +1,1 @@
+print("Te trzy linie tekstu \nzostaly wyswietlone \nza pomoca jednej instrukcji")

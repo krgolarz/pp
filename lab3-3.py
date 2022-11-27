@@ -1,0 +1,1 @@
+print("To jest znak tablulatora \"\\t\" , a to nowej linii \"\\n\"")
