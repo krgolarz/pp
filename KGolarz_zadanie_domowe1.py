@@ -1,6 +1,13 @@
 # 1
 print("Zadanie 1")
-print()
+#print()
+x = range(-5,6)
+for xx in x:
+    print((5-abs(xx))*'x',abs(xx)*2*' ',(5-abs(xx))*'x',sep='')
+    #print(xx)
+
+
+'''
 print('*        *')
 print('**      **')
 print('***    ***')
@@ -10,6 +17,7 @@ print('****  ****')
 print('***    ***')
 print('**      **')
 print('*        *')
+'''
 
 # 2
 print()
@@ -49,8 +57,10 @@ for x in oprocentowanie:
     #petla dla czestotliwosci kapitalizacji
     for y in czestotlowosc:
         wartosc = wartosc * (1+(x * 0.01))
-        '''print(y)
-        print(wartosc)'''
+        ''' 
+        print(y)
+        print(wartosc)
+        '''
         print("      Wartosc po ",y," kwartale = ",wartosc)
     print("         Zysk po roku: ",wartosc - v_wlasne_srodki, "PLN")
 
